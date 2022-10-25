@@ -1,0 +1,118 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 20px;
+}
+
+span{
+    color:grey;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px  20px;
+    
+}
+
+nav ul li a{
+    color: gray;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+ nav ul li.active a {
+    color: aqua;
+}
+
+nav ul li a:hover{
+color: aquamarine;
+transition: .3s;
+}
+
+h2{
+    color: aliceblue;
+    padding: 50px;
+}
+
+h3{
+    color:beige;
+}
+
+.option{
+    color: blanchedalmond;
+}
+
+
+.img{
+    width: 4%;
+    padding: 10%;
+    display: flex;
+}
+
+h1{
+    color:aqua;
+    text-align: center;
+    
+}
+
+p{
+    padding: 50px;
+    font-size: larger;
+    text-align: center;
+}
+
+.grid{
+    display: flex;
+}
+
+.box{
+    display:flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 110px;
+}
+
+.col1{
+    width: 300px;
+    background-color: aquamarine;
+}
+
+.col2{
+    width: 300px;
+    background-color: blue;
+}
+
+.col3{
+    width: 300px;
+    background-color:black;
+}
+
+.brandssection{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+.img-brands{
+    display: flex;
+    width: 40%;
+}
+h3{
+    text-align: center;
+}
+.partener{
+    display: flex;
+    width: 60%;
+    padding-left: 10%;
+    background-position: 10%;
+    background-color: powderblue;
+}
+
+ 
+    
+
+
